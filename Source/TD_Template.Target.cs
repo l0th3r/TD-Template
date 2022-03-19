@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class UE_TemplateTarget : TargetRules
+public class TD_TemplateTarget : TargetRules
 {
-	public UE_TemplateTarget( TargetInfo Target) : base(Target)
+	public TD_TemplateTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "UE_Template" } );
+		ExtraModuleNames.AddRange( new string[] { "TD_Template" } );
 	}
 }

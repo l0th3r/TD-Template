@@ -5,12 +5,9 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "UE_Template",
+			"Name": "TD_Template",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -19,6 +16,15 @@
 			"Enabled": true,
 			"TargetAllowList": [
 				"Editor"
+			]
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		}
 	]

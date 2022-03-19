@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "UE_TemplateGameModeBase.generated.h"
+#include "TD_TemplateGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UE_TEMPLATE_API AUE_TemplateGameModeBase : public AGameModeBase
+class TD_TEMPLATE_API ATD_TemplateGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
