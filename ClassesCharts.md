@@ -21,5 +21,5 @@ This diagram explain classes organisation and inheritance in the Tower Defense T
         TD_Entity_Movable: float MoveSpeed
         TD_Entity_Movable: float AttackCoolDown
         TD_Entity_Movable: int AttackDamages
-        TD_Entity_Movable: StartGridMovements(TD_Platform[])
+        TD_Entity_Movable: StartGridMovements()
 ```
