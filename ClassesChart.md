@@ -1,3 +1,5 @@
+# Classes Chart
+
 This diagram explain classes organisation and inheritance in the Tower Defense Template.\
 [Help to understand this diagram ?](https://mermaid-js.github.io/mermaid/#/classDiagram)
 
@@ -6,6 +8,7 @@ This diagram explain classes organisation and inheritance in the Tower Defense T
 ```mermaid
  classDiagram
       TD_Entity <|-- TD_Entity_Movable : Inherit
+      TD_Entity <|-- TD_Building : Inherit
  
       class TD_Entity
         TD_Entity: Implement a model, health and damage system
@@ -22,4 +25,8 @@ This diagram explain classes organisation and inheritance in the Tower Defense T
         TD_Entity_Movable: float AttackCoolDown
         TD_Entity_Movable: int AttackDamages
         TD_Entity_Movable: StartGridMovements()
+        
+      class TD_Building
+        TD_Building: Add a target on the grid
+        TD_Building: -
 ```
