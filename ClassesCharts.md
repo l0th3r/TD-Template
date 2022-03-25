@@ -2,7 +2,7 @@ This diagram explain classes organisation and inheritance in the Tower Defense T
 
 ```mermaid
  classDiagram
-      TD_Entity <|-- TD_Entity_Movable : Inherit
+      TD_Entity <|-- TD_Entity_Movable : Add movement over the grid
  
       class TD_Entity
         TD_Entity: int MaxHealth
