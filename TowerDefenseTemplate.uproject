@@ -20,5 +20,9 @@
 				"Linux"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"HoloLens",
+		"Windows"
 	]
 }
