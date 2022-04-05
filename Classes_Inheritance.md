@@ -5,7 +5,7 @@ Those diagrams explain classes organisation and inheritance in the Tower Defense
 
 > **_Warning:_**  This document is not complete.
 
-## TD_Entity
+## Entities
 ```mermaid
  classDiagram
       TD_Entity <|-- TD_Entity_Movable
@@ -30,7 +30,7 @@ Those diagrams explain classes organisation and inheritance in the Tower Defense
         TD_Tower: Add a link to a weapon.
 ```
 
-## TD_Platform
+## Platforms
 ```mermaid
  classDiagram
    TD_Platform  <|-- TD_Platform_Building
