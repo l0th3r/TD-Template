@@ -11,6 +11,8 @@ Those diagrams explain classes organisation and inheritance in the Tower Defense
       TD_Entity <|-- TD_Entity_Movable
       TD_Entity <|-- TD_Building
       TD_Entity <|-- TD_Weapon
+      TD_Entity_Movable <|-- TD_Entity_Minion_Limited
+      TD_Weapon <|-- TD_Miner
       
       TD_Building <|-- TD_Tower
  
@@ -28,6 +30,12 @@ Those diagrams explain classes organisation and inheritance in the Tower Defense
       
       class TD_Tower
         TD_Tower: Add a link to a weapon.
+        
+      class TD_Entity_Minion_Limited
+        TD_Entity_Minion_Limited : Entity dies after a given number of attack.
+        
+      class TD_Miner
+        TD_Miner : A weapon that generate a given amount of money on a given interval.
 ```
 
 ## Platforms
